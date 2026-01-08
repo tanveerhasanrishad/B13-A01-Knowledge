@@ -55,3 +55,135 @@ nav .nav-button {
   border: 1px solid #30b868;
   cursor: pointer;
 }
+
+header .banner-section {
+  background-image: url(../assets/hero-bg.png);
+  background-size: cover;
+}
+
+.banner-section .banner-content {
+  text-align: center;
+  max-width: 1360px;
+  margin: 0 auto;
+  padding-top: 115.5px;
+  padding-bottom: 179.5px;
+}
+
+.banner-content .banner-first-element {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 229px;
+  margin: 0 auto;
+  border-radius: 1000px;
+  padding: 8px 12px;
+  margin-bottom: 16px;
+}
+
+.banner-first-element .circle1 {
+  height: 16px;
+  width: 16px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #30b86944;
+}
+
+.banner-first-element .circle2 {
+  height: 12px;
+  width: 12px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #30b8697b;
+  padding: 2px;
+}
+
+.banner-first-element .circle3 {
+  height: 6px;
+  width: 6px;
+  border-radius: 8px;
+  background-color: #30b868;
+}
+
+.banner-first-element p {
+  font-size: 16px;
+  font-weight: 500px;
+  margin-left: 6px;
+  color: #30b868;
+}
+
+.banner-content h1 {
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 84px;
+  margin-bottom: 16px;
+}
+
+.banner-content .heading-1 {
+  color: #ffffff;
+}
+
+.banner-content .heading-2 {
+  color: #30b868;
+}
+
+.banner-content .hero-para {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 34px;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+
+.banner-content .hero-btn {
+  max-width: 465px;
+  margin: 0 auto;
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-btn .btn1 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #30b868;
+  padding: 16px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: none;
+}
+
+.btn1:hover {
+  cursor: pointer;
+  border: 1px solid white;
+  box-shadow: 5px 5px 10px 1px rgba(42, 223, 181, 0.407);
+}
+
+.hero-btn .btn2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: transparent;
+  padding: 16px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid #ffffff;
+}
+
+.btn2:hover {
+  cursor: pointer;
+  border: 1px solid #30b868;
+  box-shadow: 5px 5px 10px 1px rgba(42, 223, 181, 0.407);
+}
