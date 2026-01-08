@@ -187,3 +187,59 @@ header .banner-section {
   border: 1px solid #30b868;
   box-shadow: 5px 5px 10px 1px rgba(42, 223, 181, 0.407);
 }
+
+.notes-content {
+  max-width: 1360px;
+  height: 448px;
+  margin: 0 auto;
+  margin-top: 70px;
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.notes-content h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #001931;
+  margin-bottom: 16px;
+}
+
+.notes-content p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+}
+
+.notes-content-p {
+  margin-bottom: 44px;
+}
+
+.notes-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.notes-cards .card {
+  max-width: 322px;
+  max-height: 300px;
+  padding: 69.5px 24px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px 0 #0000001b;
+}
+
+.card img {
+  background-color: #f95555;
+  color: #ffffff;
+  border-radius: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+}
+
+.card h5 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #001931;
+  margin-bottom: 16px;
+}
