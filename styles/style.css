@@ -344,7 +344,8 @@ header .banner-section {
 
 .early-access-content .btn1:hover {
   cursor: pointer;
-  box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.181);
+  background-color: #001931;
+  box-shadow: 5px 5px 10px 5px #0019312a;
 }
 
 .early-access-footer {
