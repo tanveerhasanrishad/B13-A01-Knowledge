@@ -194,7 +194,6 @@ header .banner-section {
   margin: 0 auto;
   margin-top: 70px;
   text-align: center;
-  margin-bottom: 120px;
 }
 
 .notes-content h2 {
@@ -242,4 +241,53 @@ header .banner-section {
   font-weight: 600;
   color: #001931;
   margin-bottom: 16px;
+}
+
+.second-brain-section {
+  padding: 120px;
+}
+
+.second-brain-section .second-brain-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.second-brain-text .sub-heading {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #30b868;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+.second-brain-text h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #001931;
+  margin-bottom: 16px;
+}
+
+.second-brain-text .second-brain-para {
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  margin-bottom: 40px;
+}
+
+.second-brain-text ul li {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.second-brain-text ul li p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #001931;
 }
