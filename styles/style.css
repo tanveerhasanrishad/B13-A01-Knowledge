@@ -291,3 +291,58 @@ header .banner-section {
   line-height: 20px;
   color: #001931;
 }
+
+.early-access-section {
+  padding: 120px;
+  padding-top: 0px;
+}
+
+.early-access-content {
+  background-color: #f7f6f2;
+  border: none;
+  border-radius: 12px;
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.early-access-content h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #001931;
+  margin-bottom: 16px;
+}
+
+.early-access-content .sub-title {
+  font-size: 16px;
+  line-height: 24px;
+  color: #627382;
+  margin-bottom: 24px;
+}
+
+.early-access-content .btn1 {
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #30b868;
+  border: none;
+  border-radius: 4px;
+  gap: 10px;
+  margin-bottom: 16px;
+  box-shadow: 0 10px 20px 0 #0000002f;
+}
+
+.early-access-content .btn1:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.181);
+}
+
+.early-access-footer {
+  font-weight: 16px;
+  line-height: 20px;
+  color: #627382;
+}
