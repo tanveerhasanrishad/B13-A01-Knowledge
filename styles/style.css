@@ -33,10 +33,16 @@ nav .nav-menu {
   gap: 32px;
 }
 
-.nav-menu p {
+.nav-menu a {
   font-size: 16px;
   line-height: 152%;
   color: #000000;
+  text-decoration: none;
+}
+
+.nav-menu a:hover {
+  font-size: 18px;
+  font-weight: bold;
 }
 
 nav .nav-button {
@@ -345,4 +351,62 @@ header .banner-section {
   font-weight: 16px;
   line-height: 20px;
   color: #627382;
+}
+
+footer {
+  background-color: #001931;
+  padding: 120px;
+  padding-bottom: 30px;
+}
+
+.footer-content .footer-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 84px;
+}
+
+.footer-text .footer-links {
+  max-width: 220px;
+}
+
+.footer-links p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.footer-links .social-links {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 16px;
+  color: #ffffff;
+  padding-right: 107px;
+}
+
+.social-links a {
+  height: 20px;
+  width: 20px;
+  padding: 4.12px 4.25px;
+  border-radius: 100px;
+  text-decoration: none;
+  color: none;
+  color: #ffffff;
+}
+
+.footer-content hr {
+  border: none;
+  height: 1px;
+  background-color: #62738259;
+  margin-bottom: 30px;
+}
+
+.footer-content .copyright {
+  font-size: 16px;
+  line-height: 24px;
+  color: #fafafa;
+  text-align: center;
 }
